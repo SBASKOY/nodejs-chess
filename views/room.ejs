@@ -1,0 +1,53 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <title></title>
+
+    <script>
+        const ROOM_ID = "<%= roomId %>";
+    </script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <img src="img/black/at.png" id="bA" id="img" style="display:none;" />
+            <img src="img/black/fil.png" id="bF" width="60" height="60" id="img" style="display:none;" />
+            <img src="img/black/kale.png" id="bK" width="40" height="40" id="img" style="display:none;" />
+            <img src="img/black/piyon.png" id="bP" width="40" height="40" id="img" style="display:none;" />
+            <img src="img/black/sah.png" id="bS" width="40" height="40" id="img" style="display:none;" />
+            <img src="img/black/vezir.png" id="bV" width="40" height="40" id="img" style="display:none;" />
+
+            <img src="img/white/at.png" id="wA" id="img" style="display:none;" />
+            <img src="img/white/fil.png" id="wF" width="40" height="40" id="img" style="display:none;" />
+            <img src="img/white/kale.png" id="wK" width="40" height="40" id="img" style="display:none;" />
+            <img src="img/white/piyon.png" id="wP" width="40" height="40" id="img" style="display:none;" />
+            <img src="img/white/sah.png" id="wS" width="40" height="40" id="img" style="display:none;" />
+            <img src="img/white/vezir.png" id="wV" width="40" height="40" id="img" style="display:none;" />
+<h2 id="type" style="text-align:center;"></h2>
+<h3 id="attention" style="text-align: center;"></h3>
+            <canvas id="canvas"
+                style="background: #F0DAB5; border:3px solid #ddd; margin-left:30%;margin-top:10%;"></canvas>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"
+            integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA=="
+            crossorigin="anonymous"></script>
+        <script src="js/piece/knight.js"></script>
+        <script src="js/piece/king.js"></script>
+        <script src="js/piece/pawn.js"></script>
+        <script src="js/piece/queen.js"></script>
+        <script src="js/piece/rook.js"></script>
+        <script src="js/piece/bishop.js"></script>
+        <script src="js/const.js"></script>
+        <script src="js/functions.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            
+        </script>
+    </form>
+</body>
+
+</html>
