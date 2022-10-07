@@ -5,6 +5,8 @@
 > git clone
 
 > npm i
+
+
 > npm start
 
 [Click for Play ](https://sbaskoychess.herokuapp.com/)
